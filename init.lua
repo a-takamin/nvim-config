@@ -8,7 +8,6 @@ vim.g.mapleader = " "
 -- キーバインド
 vim.keymap.set("n", "<leader>q", ":q<CR>", { noremap = true })
 vim.keymap.set("n", "<leader>wq", ":wq<CR>", { noremap = true })
-vim.keymap.set("v", "<leader>es", "<ESC>", { noremap = true })
 vim.keymap.set("i", "jj", "<ESC>", { silent = true })
 vim.keymap.set("n", "<leader>tt", ":NvimTreeToggle<CR>")
 vim.keymap.set("n", "YY", "ggVGy", { noremap = true })
